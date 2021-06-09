@@ -22,7 +22,6 @@ html {
  */
 body {
   margin: 0;
-  background-color: #{{ site.color.secondary }};
 }
 
 /**
@@ -776,7 +775,7 @@ html {
 body {
   font-family: 'Lato', sans-serif;
   color: #515151;
-  background-color: #fbfbfb;
+  background-color: #12232e;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -890,7 +889,7 @@ table tfoot td {
 }
 
 .post, .article-page {
-  background-color: #fff;
+  background-color: #12232e;
 }
 
 ::-moz-selection {
