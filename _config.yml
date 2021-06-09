@@ -19,7 +19,14 @@ social-linkedin: andrew-d-20093669 # add your Linkedin handle
 social-email: acmarques.ds@gmail.com # add your Email address
 
 # Disqus
-#discus-identifier: mr-brown # add your discus identifier
+discus-identifier: mr-brown # add your discus identifier
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 12232e #80B3FF
+  primary-rgb: "18, 35, 46" #"128,179,255"
+  secondary: 007cc7 #FD6E8A
+  secondary-dark: 0, 124, 199 #A2122F
 
 # Tracker
 analytics: # Google Analytics
