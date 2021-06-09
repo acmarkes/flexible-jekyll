@@ -22,7 +22,7 @@ html {
  */
 body {
   margin: 0;
-  color: #{{ site.color.primary }};
+  color: #12232e;
 }
 
 /**
