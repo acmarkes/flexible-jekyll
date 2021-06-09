@@ -11,7 +11,7 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Andrew Marques # add your name
 author-img: profile.png # add your photo
-about-author: Aspiring Data scientist, data viz nerd, bookworm, constant learner. # add description
+about-author: Aspiring data scientist. Also a bookworm and constant learner. # add description
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: acmarkes # add your Github handle
