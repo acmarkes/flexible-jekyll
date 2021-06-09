@@ -49,7 +49,7 @@ h1 {
 Changing BG color of the whole site
 */
 .wrapper {
-   background-color: #{{ site.color.primary }};
+   background-color: #12232e;
 }
 
 
