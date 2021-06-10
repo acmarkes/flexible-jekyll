@@ -2,7 +2,7 @@ title: Andrew Marques
 description: > # this means to ignore newlines until "baseurl:"
   Andrew's portfolio
 permalink: ':title/'
-baseurl: "/home" # the subpath of your site, e.g. /blog
+#baseurl: "/home" # the subpath of your site, e.g. /blog
 url: "https://andrewmarques.com" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
