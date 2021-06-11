@@ -888,6 +888,7 @@ table tfoot td {
   position: relative;
 }
 
+
 .post, .article-page {
   background-color: #fff;
 }
@@ -933,12 +934,15 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  color: #fff;
+  background-color: #12232e;;
 }
 
 .about {
   margin: 0 0 40px;
   text-align: center;
+  color: #fff;
+  background-color: #12232e;
 }
 
 .about .cover-author-image {
@@ -1019,11 +1023,18 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  color: #fff;
+  background-color: #12232e;
+}
+
+.contact{
+  color: #fff;
+  background-color: #12232e;
 }
 
 .contact .contact-title {
   position: relative;
-  color: #333030;
+  /*color: #333030;*/
   font-weight: 400;
   font-size: 12px;
   margin: 0 0 5px;
@@ -1043,7 +1054,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   left: 0;
-  background-color: #515151;
+  /*background-color: #515151;*/
 }
 
 .contact .contact-title::after {
@@ -1058,7 +1069,7 @@ table tfoot td {
   position: absolute;
   top: 50%;
   right: 0;
-  background-color: #515151;
+  /*background-color: #515151;*/
 }
 
 .contact ul {
@@ -1078,7 +1089,7 @@ table tfoot td {
 }
 
 .contact ul li a {
-  color: #515151;
+  color: #fbfbfb;
   display: block;
   padding: 5px;
   font-size: 18px;
@@ -1088,7 +1099,7 @@ table tfoot td {
 }
 
 .contact ul li a:hover {
-  color: #333030;
+  color: #fbfbfb;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -1098,6 +1109,8 @@ footer .copyright {
   font-size: 14px;
   text-align: center;
   margin: 0;
+  color: #fff;
+  background-color: #12232e;
 }
 
 .post {
@@ -1126,6 +1139,8 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
+  color: #fff;
+  background-color: #12232e;
 }
 
 .post:hover {
@@ -1164,7 +1179,7 @@ footer .copyright {
 .post .post-content .post-title a {
   font-family: 'PT Serif', serif;
   text-decoration: none;
-  color: #263959;
+  color: #fbfbfb;
 }
 
 .post .post-content p {
