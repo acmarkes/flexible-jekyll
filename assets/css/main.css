@@ -979,7 +979,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #fbfbfb;
   font-weight: 700;
 }
 
@@ -1023,12 +1023,12 @@ table tfoot td {
   -webkit-align-items: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
-  color: #fff;
-  background-color: #12232e;
+  color: #fbfbfb;
+  background-color: #172a36;
 }
 
 .contact{
-  color: #fff;
+  color: #fbfbfb;
   background-color: #12232e;
 }
 
