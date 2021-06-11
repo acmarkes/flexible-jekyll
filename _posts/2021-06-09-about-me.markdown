@@ -1,23 +1,12 @@
 ---
 layout: post
-title: Test Post
+title: A little bit about me
 date: 2021-06-09 00:00:00 -0300
 description: Hey there, ~~General Kenobi~~ visitor. My name is Andrew and this is my data science journey.
-img: mac.jpg
-tags: [Test]
+img: # js-1.png
+tags: [Reflections]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam imperdiet ullamcorper facilisis. Aenean lectus justo, volutpat vel iaculis at, consectetur vitae magna. Sed vulputate id magna ut fringilla. Quisque lorem justo, ultrices interdum pharetra ut, faucibus in odio. Aliquam aliquam enim eget pharetra viverra. Suspendisse commodo odio ligula, eget gravida sapien hendrerit id. Donec dapibus dapibus tellus, in ornare diam convallis id. Etiam eros purus, elementum at leo et, placerat dignissim neque. Nulla sagittis pharetra molestie.
-
->Pellentesque consectetur tempor odio, a efficitur lorem tristique nec. In non luctus lorem. Morbi maximus odio nec lorem consectetur hendrerit. Nulla tincidunt sit amet massa facilisis pharetra. Nulla imperdiet augue vitae dolor rutrum mollis. In aliquam risus ex, eu auctor velit efficitur in. Nam laoreet suscipit nibh quis mollis. Sed at nunc ut nisl facilisis finibus dapibus vel eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla rhoncus laoreet hendrerit.
-
-
-<script src="https://gist.github.com/acmarkes/2110c3e7859a5ea5fd9229301faa5c9b.js"></script>
-
-
-- Vivamus ut lorem vehicula, viverra neque a, vulputate nisl.
-- Nunc at dolor aliquam, accumsan mi in, convallis lorem.
-- Cras aliquam neque sed facilisis mattis.
-- Donec a nibh vitae libero condimentum ornare.
-
-Cras id efficitur dui. Nulla venenatis at quam sit amet sollicitudin. Morbi ac tincidunt justo. Mauris viverra tellus at scelerisque ornare. Cras at ipsum ac magna ultrices blandit in et ex. Vestibulum eu convallis mauris. In tincidunt elementum metus, sed posuere orci dapibus et. Nulla facilisi. Donec ut tempus est, sit amet mollis ipsum. Duis id augue rutrum, faucibus sapien eget, viverra lacus. Fusce non feugiat erat. Quisque pharetra sodales elit, ut ultricies tortor pharetra in. Duis dignissim vitae est nec placerat.
+Hi! I'm a brazilian mathematics undergraduate with self-taught data science skills who is now pursuing a Data Scientist degree at the Pontíficia Universidade Católica in Rio de Janeiro.
+This corner of the internet is my humble portfolio where I hope I can show you interesting things with the help of data. Feel free to contact me through any of the channels available on the sidebar 
+if you want to talk data or hire me :). 
