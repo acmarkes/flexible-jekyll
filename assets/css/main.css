@@ -1500,3 +1500,8 @@ a.newer-posts:hover {
     font-size: 21px;
   }
 }
+
+*{
+  color: #fbfbfb;
+  background-color: #12232e;
+}
