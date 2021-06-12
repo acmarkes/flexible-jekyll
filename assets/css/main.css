@@ -1,7 +1,12 @@
 :root{
   --text: #fbfbfb;      /*variavel*/
+<<<<<<< HEAD
   --bg: var(--bg);
   --sbg:var(--sbg);
+=======
+  --bg: #12232e;
+  --sbg:#203647;
+>>>>>>> e2e2cd24353b7584d07935a6ea05ded4aea3a8ff
 }
 
 
