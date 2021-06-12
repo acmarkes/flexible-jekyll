@@ -1,7 +1,7 @@
 :root{
   --text: #fbfbfb;      /*variavel*/
-  --bg: #12232e;
-  --sbg:#203647;
+  --bg: var(--bg);
+  --sbg:var(--sbg);
 }
 
 
@@ -901,7 +901,7 @@ table tfoot td {
 }
 
 .article {
-  background-color: #203647;
+  background-color: var(--sbg);
 }
 
 ::-moz-selection {
@@ -959,7 +959,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #12232e;
+  background-color: var(--bg);
 }
 
 .about img {
@@ -986,7 +986,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #fff;
+  color: var(--text);
   font-weight: 700;
 }
 
@@ -1136,7 +1136,7 @@ footer .copyright {
   transition: all .3s ease;
   -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
           box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
-  background-color: #203647;
+  background-color: var(--sbg);
 
 }
 
@@ -1160,20 +1160,20 @@ footer .copyright {
 .post .post-content {
   padding: 1rem;
   width: 70%;
-  background-color: #203647;
+  background-color: var(--sbg);
 }
 
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
-  background-color: #203647;
+  background-color: var(--sbg);
 }
 
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 30px;
   font-weight: 400;
-  background-color: #203647;
+  background-color: var(--sbg);
 }
 
 .post .post-content .post-title a {
@@ -1183,7 +1183,7 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
-  background-color: #203647;
+  background-color: var(--sbg);
 }
 
 a.older-posts, a.newer-posts {
@@ -1374,7 +1374,7 @@ a.newer-posts:hover {
   padding: 5px 10px;
   border: 1px solid #ecf0f1;
   background-color: #ecf0f1;
-  color: #12232e;
+  color: var(--bg);
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -1385,7 +1385,7 @@ a.newer-posts:hover {
 }
 
 .tags span {
-  color: #12232e;
+  color: var(--bg);
 }
 
 .tag span{
