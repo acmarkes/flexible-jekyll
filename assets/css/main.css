@@ -788,6 +788,22 @@ h1 {
   font-weight: 400;
 }
 
+a{
+  color: #5476af;
+}
+
+a:visited {
+  color: #45659c;
+}
+
+a:hover {
+  color: #5c80be;
+}
+
+a:active {
+  color: #45659c;
+}
+
 img {
   max-width: 100%;
   vertical-align: middle;
@@ -1193,10 +1209,6 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Post Page Styles - - - - - - - - - - */
 .wrap-content {
   padding: 20px;
-}
-
-.wrap-content a{
-  color: #5476af;
 }
 
 .header-page {
