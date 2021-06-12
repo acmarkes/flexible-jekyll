@@ -949,7 +949,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #fbfbfb;
 }
 
 .about img {
@@ -976,7 +976,7 @@ table tfoot td {
   padding-bottom: 15px;
   font-size: 16px;
   text-transform: uppercase;
-  color: #333030;
+  color: #fff;
   font-weight: 700;
 }
 
@@ -1305,7 +1305,6 @@ a.newer-posts:hover {
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
-  background-color: #ffffff;
   padding: 0 20px 20px;
 }
 
