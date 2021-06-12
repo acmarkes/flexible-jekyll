@@ -1347,8 +1347,12 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
+.tag {
+  color: #fafafa;
+}
+
 .tag-list{
-  color: #fafafa
+  color: #fafafa;
 }
 
 .tag-list span a {
