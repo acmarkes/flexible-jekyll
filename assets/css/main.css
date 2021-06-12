@@ -893,7 +893,8 @@ table tfoot td {
   position: relative;
 }
 
-.post, .article-page {
+.article {
+  background-color: #203647;
 }
 
 ::-moz-selection {
@@ -1100,6 +1101,8 @@ footer .copyright {
   margin: 0;
 }
 
+
+
 .post {
   width: 100%;
   max-width: 100%;
@@ -1156,12 +1159,14 @@ footer .copyright {
 .post .post-content .post-date,
 .post .post-content .post-words {
   font-size: 12px;
+  background-color: #203647;
 }
 
 .post .post-content .post-title {
   margin: 0 0 10px;
   font-size: 30px;
   font-weight: 400;
+  background-color: #203647;
 }
 
 .post .post-content .post-title a {
@@ -1171,6 +1176,7 @@ footer .copyright {
 
 .post .post-content p {
   margin-top: 0;
+  background-color: #203647;
 }
 
 a.older-posts, a.newer-posts {
@@ -1475,9 +1481,7 @@ a.newer-posts:hover {
     -webkit-align-items: stretch;
         -ms-flex-align: stretch;
             align-items: stretch;
-    background-color: #203647;
-
-  }
+}
   .contact-title, .copyright {
     display: none;
   }
