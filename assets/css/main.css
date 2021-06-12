@@ -949,7 +949,7 @@ table tfoot td {
   -webkit-border-radius: 100%;
           border-radius: 100%;
   overflow: hidden;
-  background-color: #fbfbfb;
+  background-color: #12232e;
 }
 
 .about img {
@@ -1347,9 +1347,13 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
+.tag-list{
+  color: #fafafa
+}
+
 .tag-list span a {
   text-decoration: none;
-  color: #263959;
+  color: #fafafa;
 }
 
 .tag-list span a:hover {
