@@ -1,3 +1,10 @@
+:root{
+  --text: #fbfbfb;      /*variavel*/
+  --bg: #12232e;
+  --sbg:#203647;
+}
+
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -773,8 +780,8 @@ html {
 }
 
 *{
-  color: #fbfbfb;
-  background-color: #12232e;
+  color: var(--text);
+  background-color: var(--bg);
 }
 
 body {
