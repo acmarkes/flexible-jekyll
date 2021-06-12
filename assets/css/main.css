@@ -1,7 +1,7 @@
 :root{
   --text: #fbfbfb;      /*variavel*/
-  --bg: var(--bg);
-  --sbg:var(--sbg);
+  --bg: #12232e;
+  --sbg:#203647;
 }
 
 
