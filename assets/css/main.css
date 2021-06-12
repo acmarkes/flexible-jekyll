@@ -788,21 +788,7 @@ h1 {
   font-weight: 400;
 }
 
-a{
-  color: #5476af;
-}
 
-a:visited {
-  color: #45659c;
-}
-
-a:hover {
-  color: #5c80be;
-}
-
-a:active {
-  color: #45659c;
-}
 
 img {
   max-width: 100%;
@@ -1211,6 +1197,22 @@ a.newer-posts:hover {
   padding: 20px;
 }
 
+.wrap-content a{
+  color: #5476af;
+}
+
+.wrap-content a:visited {
+  color: #45659c;
+}
+
+.wrap-content a:hover {
+  color: #5c80be;
+}
+
+.wrap-content a:active {
+  color: #45659c;
+}
+
 .header-page {
   text-align: center;
   margin: 10px 0;
@@ -1365,6 +1367,10 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
+.tags span {
+  color: #12232e;
+}
+
 .tag span{
   background-color: #ecf0f1;
 }
@@ -1395,6 +1401,7 @@ a.newer-posts:hover {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
+    background-color: #203647;
   }
   .post .post-thumbnail {
     width: 100%;
