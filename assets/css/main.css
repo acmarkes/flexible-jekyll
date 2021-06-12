@@ -768,6 +768,11 @@ template {
           box-sizing: border-box;
 }
 
+*{
+  color: #fbfbfb;
+  background-color: #12232e;
+}
+
 html {
   line-height: 1.5;
 }
@@ -1501,7 +1506,3 @@ a.newer-posts:hover {
   }
 }
 
-*{
-  color: #fbfbfb;
-  background-color: #12232e;
-}
