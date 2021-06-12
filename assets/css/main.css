@@ -993,6 +993,7 @@ table tfoot td {
   height: 7px;
   -webkit-border-radius: 100%;
           border-radius: 100%;
+  background-color: #fbfbfb;
 }
 
 .about p {
@@ -1347,17 +1348,17 @@ a.newer-posts:hover {
   background-color: #ecf0f1;
 }
 
-.tag {
-  color: #fafafa;
+.tag span{
+  background-color: #ecf0f1;
 }
 
 .tag-list{
-  color: #fafafa;
+  color: #ecf0f1;
 }
 
 .tag-list span a {
   text-decoration: none;
-  color: #fafafa;
+  color: #ecf0f1;
 }
 
 .tag-list span a:hover {
