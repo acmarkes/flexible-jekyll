@@ -1408,6 +1408,7 @@ a.newer-posts:hover {
   }
   .post .post-content {
     width: 100%;
+    background-color: #203647;
   }
   .post .post-content .post-title {
     margin: 0 0 5px;
