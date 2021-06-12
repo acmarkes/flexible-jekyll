@@ -1339,6 +1339,7 @@ a.newer-posts:hover {
   padding: 5px 10px;
   border: 1px solid #ecf0f1;
   background-color: #ecf0f1;
+  color: #12232e;
   -webkit-transition: all .3s;
   -o-transition: all .3s;
   transition: all .3s;
@@ -1358,7 +1359,7 @@ a.newer-posts:hover {
 
 .tag-list span a {
   text-decoration: none;
-  color: #294677;
+  color: #5476af;
 }
 
 .tag-list span a:hover {
