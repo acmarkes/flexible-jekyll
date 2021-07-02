@@ -9,4 +9,4 @@ tags: [Reflections]
 
 Hi! I'm a brazilian mathematics undergraduate with self-taught data science skills who is now pursuing a Data Scientist degree at the Pontíficia Universidade Católica in Rio de Janeiro.
 This corner of the internet is my humble portfolio where I hope I can show you interesting things with the help of data. Feel free to contact me through any of the channels available on the sidebar 
-if you want to talk data or hire me :). 
+if you want to talk data or hire me :)
