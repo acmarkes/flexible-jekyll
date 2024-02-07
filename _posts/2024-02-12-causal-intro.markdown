@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Causal Inference - Understanding the Foundations and Assumptions
-date: 2024-02-12 00:00:00 -0300
+date: 2024-02-07 00:00:00 -0300
 description: A small intro on causal inference for observational data
-img: heartd.jpg
+img: causal_intro.png
 tags: [Statistics, Causality]
 ---
 
