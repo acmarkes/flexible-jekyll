@@ -8,7 +8,7 @@ tags: [Statistics, Causality]
 ---
 
 
-## **Introduction:**
+## **Introduction**
 Anyone working with data has heard the maxim "correlation is not causation" but not everyone finds out what causation actually is and how to measure it. While correlation identifies relationships between variables, causality delves deeper into understanding the mechanisms behind these relationships, including the effects of certain variables. Causal inference provides formal definitions of causal effects and the assumptions necessary to infer causation from observational data, as well as rules about what variables to control for and sensitivity analysis to measure the impact of a violated assumption. 
 
 In this brief article, we'll explore the fundamental principles of causal inference and introduce a framework and its key assumptions to understand and estimate causal effects from observational data.
@@ -73,7 +73,7 @@ Positivity asserts that every unit in the population has a non-zero probability 
 #### **Consistency:**
 Last but not least: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
 
-## **Conclusion:**
+## **Conclusion**
 
 Understanding causality is paramount for making informed decisions based on data. While correlation can identify relationships between variables, causality enables a deeper comprehension of the mechanisms behind these relationships and the effects of specific interventions or treatments. In this article, we explored some foundational concepts of causal inference, as well as the potential outcomes framework. 
 
