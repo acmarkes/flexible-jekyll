@@ -9,11 +9,11 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Andrew Marques # add your name
 author-img: profile.png # add your photo
-about-author: Aspiring data scientist, bookworm, occasional teacher and constant learner. # add description
+about-author: Aspiring data science unicorn, bookworm, occasional teacher and constant learner. # add description
 #social-twitter: # add your Twitter handle
 #social-facebook: # add your Facebook handle
 social-github: acmarkes # add your Github handle
-social-linkedin: andrew-d-20093669 # add your Linkedin handle
+social-linkedin: andrewmarques # add your Linkedin handle
 social-email: acmarques.ds@gmail.com # add your Email address
 
 # Disqus
