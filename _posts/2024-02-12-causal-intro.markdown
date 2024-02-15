@@ -67,4 +67,9 @@ The treatment assignment should be independent of potential outcomes when condit
 The simplest of the assumptions: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
 
 ## **Conclusion:**
-Causal inference is a powerful tool for uncovering causal relationships from observational data. By understanding the foundational assumptions and methodologies in causal inference, researchers can derive meaningful insights into the causal mechanisms underlying observed phenomena. However, it's crucial to acknowledge the limitations and potential biases inherent in causal inference and employ robust sensitivity analyses to assess the robustness of conclusions. As data-driven decision-making continues to gain prominence, a solid understanding of causal inference principles is indispensable for extracting actionable insights and informing evidence-based policies and interventions.
+
+Understanding causality is paramount for making informed decisions based on data. While correlation can identify relationships between variables, causality enables a deeper comprehension of the mechanisms behind these relationships and the effects of specific interventions or treatments. In this article, we explored some foundational concepts of causal inference, as well as the potential outcomes framework. 
+
+Leveraging the ideas of the framework allows us to compare observed outcomes with hypothetical outcomes under different treatment scenarios. We also defined some notations for these ideas and explained the key assumptions essential for estimating causal effects from observational data. 
+
+In the next part of this series, we will delve into the mathematical nitty-gritty of these concepts. Stay tuned.
