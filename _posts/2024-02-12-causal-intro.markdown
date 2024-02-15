@@ -35,22 +35,22 @@ By explicitly defining potential outcomes, acknowledging the existence of counte
 
 Before delving any deeper, let's formalize some ideas:
 
-#### Treatment (**T**): 
+- Treatment (**T**): 
 Represents the intervention or action taken, such as receiving a flu vaccine.
   
-#### Outcome (**Y**): 
+- Outcome (**Y**): 
 Denotes the result or response of interest, such as contracting the flu within 6 months of taking the vaccine.
   
-#### Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): 
+- Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): 
 Refers to the outcome that would be observed under a specific treatment condition. We have two possible outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
   
-#### Counterfactual: 
+- Counterfactual: 
 Represent the hypothetical outcomes that would have occurred under different treatment scenarios. If T=1 then **Y**<sup>1</sup> is our outcome and **Y**<sup>0</sup> is our counterfactual).
   
-#### Covariate (**X**): 
+- Covariate (**X**): 
 Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously.
   
-#### Confounder: 
+- Confounder: 
 A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
 
 
@@ -68,7 +68,8 @@ The treatment assignment should be independent of potential outcomes when condit
 
 #### **Positivity (aka Overlap or Common Support):**
 
-Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
+Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. 
+Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
 
 #### **Consistency:**
 Last but not least: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
@@ -81,10 +82,13 @@ Leveraging the ideas of the framework allows us to compare observed outcomes wit
 
 In the next part of this series, we will delve into the mathematical nitty-gritty of these concepts. Stay tuned.
 
-###### Sources:
 
-Pearl, J., Glymour, M., Jewell, N. (2019) Causal Inference in Statistics: A Primer. John Wiley & Sons
+##### Sources:
 
-Molak, A. (2023). Causal Inference and Discovery in Python. Packt Publishing.
+Pearl, J., Glymour, M., Jewell, N. (2019) "Causal Inference in Statistics: A Primer". *John Wiley & Sons*
 
-Holland, P. (1986). Statistics and Causal Inference. Journal of the American Statistical Association, Vol. 81, No. 396 (Dec., 1986), pp. 945-960. American Statistical Association.
+Molak, A. (2023). "Causal Inference and Discovery in Python". *Packt Publishing*.
+
+Holland, P. (1986). "Statistics and Causal Inference". Journal of the American Statistical Association, Vol. 81, No. 396 (Dec., 1986), pp. 945-960. *American Statistical Association*.
+
+Rubin, D. (1974). “Estimating Causal Effects of Treatments in Randominzed and Nonrandomized Studies.” _Journal of Educational Psychology_ Vol. 66 pp.688–701.
