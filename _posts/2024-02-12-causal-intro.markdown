@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Causal Inference - Understanding the Foundations and Assumptions
+title: Causal Inference - Understanding the Foundations
 date: 2024-02-11 00:00:00 -0300
 description: A small intro on causal inference for observational data
 img: causal_intro.png
@@ -8,14 +8,12 @@ tags: [Statistics, Causality]
 ---
 
 
-## Causal Inference: Understanding the Foundations 
-
-#### **Introduction:**
+## **Introduction:**
 Anyone working with data has heard the maxim "correlation is not causation" but not everyone finds out what causation actually is and how to measure it. While correlation identifies relationships between variables, causality delves deeper into understanding the mechanisms behind these relationships, including the effects of certain variables. Causal inference provides formal definitions of causal effects and the assumptions necessary to infer causation from observational data, as well as rules about what variables to control for and sensitivity analysis to measure the impact of a violated assumption. 
 
 In this brief article, we'll explore the fundamental principles of causal inference and introduce a framework and its key assumptions to understand and estimate causal effects from observational data.
 
-#### **Conceptualizing Causality**
+## **Conceptualizing Causality**
 
 Causal effects are best understood as the consequences of manipulations or interventions on certain variables. However, it's crucial to ensure that the variables chosen for analysis are manipulable—that is, they can be subject to interventions or treatments.
 
@@ -23,7 +21,7 @@ Consider the example: "What is the effect of BMI on heart disease?" In this scen
 
 By selecting manipulable variables and carefully defining causal relationships, we can better understand the causal effects of the treatment and avoid confounding factors. But when defining causal relationships we encounter a fundamental issue in causal inference: the inability to observe multiple outcomes for the same individual. In our example, the same person can't start and not start the diet.
 
-### **The Potential Outcomes Framework
+## **The Potential Outcomes Framework
 
 One powerful framework that addresses the fundamental problem of causal inference is the potential outcomes framework. Developed by Donald Rubin in the 1970s, this framework provides a systematic way to define and estimate causal effects in observational studies and experiments.
 
@@ -43,25 +41,25 @@ Before delving any deeper, let's formalize some ideas:
 - Confounder: A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
 
 
-### **Assumptions in Causal Inference:**
+## **Assumptions in Causal Inference:**
 To estimate causal effects from observational data, several assumptions must be satisfied:
 
-##### **SUTVA (Stable Unit Treatment Value Assumption):**
+#### **SUTVA (Stable Unit Treatment Value Assumption):**
 
 The treatment assigned to one unit (individual, subject, etc) does not influence the potential outcomes of other units. 
 This assumption can be difficult to confirm when you have interacting individuals. For example, if someone in a house decides to start dieting, other members of the household might feel inclined to do the same. SUTVA ensures that each unit's outcome is solely determined by its own treatment assignment.
   
-##### **Positivity (aka Overlap or Common Support):**
+#### **Positivity (aka Overlap or Common Support):**
 
 Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
   
-##### **Ignorability (Exchangeability):**
+#### **Ignorability (Exchangeability):**
 
 The treatment assignment should be independent of potential outcomes when conditioning on observed covariates. That means that every covariate X that affects both the treatment T and the outcome Y are observed and can be controlled for. This type of covariate is known as a confounder, so remember: no unmeasured confounders. 
   
-##### **Consistency:**
+#### **Consistency:**
 
 The simplest of the assumptions: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
 
-### **Conclusion:**
+## **Conclusion:**
 Causal inference is a powerful tool for uncovering causal relationships from observational data. By understanding the foundational assumptions and methodologies in causal inference, researchers can derive meaningful insights into the causal mechanisms underlying observed phenomena. However, it's crucial to acknowledge the limitations and potential biases inherent in causal inference and employ robust sensitivity analyses to assess the robustness of conclusions. As data-driven decision-making continues to gain prominence, a solid understanding of causal inference principles is indispensable for extracting actionable insights and informing evidence-based policies and interventions.
