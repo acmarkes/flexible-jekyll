@@ -31,19 +31,27 @@ Say we are studying the effects of a flu vaccine. The potential outcome for an i
 
 By explicitly defining potential outcomes, acknowledging the existence of counterfactual scenarios and relying on some assumptions that will allow us to make valid inferences about causal relationships from observational, the potential outcomes framework can be used to disentangle causation from association and to estimate average causal effects in our population.
 
-**Notations:**
+### **Notations:**
+
 Before delving any deeper, let's formalize some ideas:
-- Treatment (**T**): Represents the intervention or action taken, such as receiving a flu vaccine.
+
+#### Treatment (**T**): 
+Represents the intervention or action taken, such as receiving a flu vaccine.
   
-- Outcome (**Y**): Denotes the result or response of interest, such as contracting the flu within 6 months of taking the vaccine.
+#### Outcome (**Y**): 
+Denotes the result or response of interest, such as contracting the flu within 6 months of taking the vaccine.
   
-- Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): Refers to the outcome that would be observed under a specific treatment condition. We have two possible outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
+#### Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): 
+Refers to the outcome that would be observed under a specific treatment condition. We have two possible outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
   
-- Counterfactual: Represent the hypothetical outcomes that would have occurred under different treatment scenarios. If T=1 then **Y**<sup>1</sup> is our outcome and **Y**<sup>0</sup> is our counterfactual).
+#### Counterfactual: 
+Represent the hypothetical outcomes that would have occurred under different treatment scenarios. If T=1 then **Y**<sup>1</sup> is our outcome and **Y**<sup>0</sup> is our counterfactual).
   
-- Covariate (**X**): Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously.
+#### Covariate (**X**): 
+Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously.
   
-- Confounder: A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
+#### Confounder: 
+A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
 
 
 ## **Assumptions in Causal Inference:**
@@ -53,7 +61,7 @@ To estimate causal effects from observational data, several assumptions must be 
 
 The treatment assigned to one unit (individual, subject, etc) does not influence the potential outcomes of other units. 
 This assumption can be difficult to confirm when you have interacting individuals. For example, if someone in a house decides to start dieting, other members of the household might feel inclined to do the same. SUTVA ensures that each unit's outcome is solely determined by its own treatment assignment.
-  
+
 #### **Positivity (aka Overlap or Common Support):**
 
 Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
