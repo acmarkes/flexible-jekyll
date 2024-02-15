@@ -21,7 +21,7 @@ Consider the example: "What is the effect of BMI on heart disease?" In this scen
 
 By selecting manipulable variables and carefully defining causal relationships, we can better understand the causal effects of the treatment and avoid confounding factors. But when defining causal relationships we encounter a fundamental issue in causal inference: the inability to observe multiple outcomes for the same individual. In our example, the same person can't start and not start the diet.
 
-## **The Potential Outcomes Framework
+## **The Potential Outcomes Framework**
 
 One powerful framework that addresses the fundamental problem of causal inference is the potential outcomes framework. Developed by Donald Rubin in the 1970s, this framework provides a systematic way to define and estimate causal effects in observational studies and experiments.
 
