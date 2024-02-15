@@ -62,17 +62,16 @@ To estimate causal effects from observational data, several assumptions must be 
 The treatment assigned to one unit (individual, subject, etc) does not influence the potential outcomes of other units. 
 This assumption can be difficult to confirm when you have interacting individuals. For example, if someone in a house decides to start dieting, other members of the household might feel inclined to do the same. SUTVA ensures that each unit's outcome is solely determined by its own treatment assignment.
 
+#### **Ignorability (Exchangeability):**
+
+The treatment assignment should be independent of potential outcomes when conditioning on observed covariates. That means that every covariate X that affects both the treatment T and the outcome Y are observed and can be controlled for. This type of covariate is known as a confounder, so remember: no unmeasured confounders. 
+
 #### **Positivity (aka Overlap or Common Support):**
 
 Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
 
-#### **Ignorability (Exchangeability):**
-
-The treatment assignment should be independent of potential outcomes when conditioning on observed covariates. That means that every covariate X that affects both the treatment T and the outcome Y are observed and can be controlled for. This type of covariate is known as a confounder, so remember: no unmeasured confounders. 
-  
 #### **Consistency:**
-
-The simplest of the assumptions: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
+Last but not least: there should be no hidden versions of treatment. If the treatment is to receive welfare payments, the individual either receives it or doesn't. If the treatment is getting a prize, there should be no consolation prizes for those that didn't get one. Define your treatments well and make sure you know all their possibilities. 
 
 ## **Conclusion:**
 
@@ -81,3 +80,11 @@ Understanding causality is paramount for making informed decisions based on data
 Leveraging the ideas of the framework allows us to compare observed outcomes with hypothetical outcomes under different treatment scenarios. We also defined some notations for these ideas and explained the key assumptions essential for estimating causal effects from observational data. 
 
 In the next part of this series, we will delve into the mathematical nitty-gritty of these concepts. Stay tuned.
+
+###### Sources:
+
+Pearl, J., Glymour, M., Jewell, N. (2019) Causal Inference in Statistics: A Primer. John Wiley & Sons
+
+Molak, A. (2023). Causal Inference and Discovery in Python. Packt Publishing.
+
+Holland, P. (1986). Statistics and Causal Inference. Journal of the American Statistical Association, Vol. 81, No. 396 (Dec., 1986), pp. 945-960. American Statistical Association.
