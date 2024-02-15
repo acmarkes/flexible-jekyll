@@ -34,10 +34,15 @@ By explicitly defining potential outcomes, acknowledging the existence of counte
 **Notations:**
 Before delving any deeper, let's formalize some ideas:
 - Treatment (**T**): Represents the intervention or action taken, such as receiving a flu vaccine.
+  
 - Outcome (**Y**): Denotes the result or response of interest, such as contracting the flu within 6 months of taking the vaccine.
+  
 - Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): Refers to the outcome that would be observed under a specific treatment condition. We have two possible outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
+  
 - Counterfactual: Represent the hypothetical outcomes that would have occurred under different treatment scenarios. If T=1 then **Y**<sup>1</sup> is our outcome and **Y**<sup>0</sup> is our counterfactual).
-- Covariate (**X**): Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously. 
+  
+- Covariate (**X**): Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously.
+  
 - Confounder: A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
 
 
@@ -52,7 +57,7 @@ This assumption can be difficult to confirm when you have interacting individual
 #### **Positivity (aka Overlap or Common Support):**
 
 Positivity asserts that every unit in the population has a non-zero probability of receiving each treatment level. Considering a single covariate X=x, formally we have that P(T=t | X=x) > 0 for all values of X. Imagine your population is comprised of 500 people aged 30 to 80 and you want to understand the impact of a treatment only available to people aged 50 or more.  Everyone under that age threshold has no chance to receive the treatment and it won't be possible to extrapolate their behaviour as if they had received the treatment. This condition is essential for estimating causal effects across all subgroups of the population.
-  
+
 #### **Ignorability (Exchangeability):**
 
 The treatment assignment should be independent of potential outcomes when conditioning on observed covariates. That means that every covariate X that affects both the treatment T and the outcome Y are observed and can be controlled for. This type of covariate is known as a confounder, so remember: no unmeasured confounders. 
