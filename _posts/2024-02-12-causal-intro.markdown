@@ -9,7 +9,9 @@ tags: [Statistics, Causality]
 
 
 ## **Introduction**
-Anyone working with data has heard the maxim "correlation is not causation" but not everyone finds out what causation actually is and how to measure it. While correlation identifies relationships between variables, causality delves deeper into understanding the mechanisms behind these relationships, including the effects of certain variables. Causal inference provides formal definitions of causal effects and the assumptions necessary to infer causation from observational data, as well as rules about what variables to control for and sensitivity analysis to measure the impact of a violated assumption. 
+Anyone working with data has heard the maxim "correlation is not causation" but not everyone finds out what causation actually is and how to measure it. 
+
+While correlation identifies relationships between variables, causality delves deeper into understanding the mechanisms behind these relationships, including the effects of certain variables. Causal inference provides formal definitions of causal effects and the assumptions necessary to infer causation from observational data, as well as rules about what variables to control for and sensitivity analysis to measure the impact of a violated assumption. 
 
 In this brief article, we'll explore the fundamental principles of causal inference and introduce a framework and its key assumptions to understand and estimate causal effects from observational data.
 
@@ -27,7 +29,7 @@ One powerful framework that addresses the fundamental problem of causal inferenc
 
 At its core, the potential outcomes framework revolves around the notion of counterfactuals. In any given situation before a treatment or intervention is applied to individuals, each person has a potential outcome associated with each possible treatment level. 
 
-Say we are studying the effects of a flu vaccine. The potential outcome for an individual who receives the vaccine could be if they got the flu within 6 months, while the potential outcome for the same individual without the vaccine would be if they got the flu within 6 months. After the treatment we'd have the actual outcome for the person and our counterfactual would be the other potential outcome. 
+Say we are studying the effects of a flu vaccine. For each individual, there are two potential outcomes: one if they receive the vaccine and another if they don't. The potential outcome for an individual who receives the vaccine represents whether they would get the flu within 6 months under that condition. Similarly, the potential outcome for the same individual without the vaccine represents whether they would get the flu within 6 months if they didn't receive the vaccine. After the treatment we'd have the actual outcome for the person and our counterfactual would be the other potential outcome. 
 
 By explicitly defining potential outcomes, acknowledging the existence of counterfactual scenarios and relying on some assumptions that will allow us to make valid inferences about causal relationships from observational, the potential outcomes framework can be used to disentangle causation from association and to estimate average causal effects in our population.
 
