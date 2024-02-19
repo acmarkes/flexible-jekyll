@@ -27,7 +27,7 @@ By selecting manipulable variables and carefully defining causal relationships, 
 
 One powerful framework that addresses the fundamental problem of causal inference is the potential outcomes framework. Developed by Donald Rubin in the 1970s, this framework provides a systematic way to define and estimate causal effects in observational studies and experiments.
 
-At its core, the potential outcomes framework revolves around the notion of counterfactuals. In any given situation before a treatment or intervention is applied to individuals, each person has a potential outcome associated with each possible treatment level. 
+At its core, the potential outcomes framework revolves around the notion of counterfactuals. In any given situation before a treatment or intervention is applied to individuals, each one has a potential outcome associated with each possible treatment level. 
 
 Say we are studying the effects of a flu vaccine. For each individual, there are two potential outcomes: one if they receive the vaccine and another if they don't. The potential outcome for an individual who receives the vaccine represents whether they would get the flu within 6 months under that condition. Similarly, the potential outcome for the same individual without the vaccine represents whether they would get the flu within 6 months if they didn't receive the vaccine. After the treatment we'd have the actual outcome for the person and our counterfactual would be the other potential outcome. 
 
@@ -44,7 +44,7 @@ Represents the intervention or action taken, such as receiving a flu vaccine.
 Denotes the result or response of interest, such as contracting the flu within 6 months of taking the vaccine.
   
 - Potential Outcome (**Y**<sup>t</sup> or **Y**|T=t): 
-Refers to the outcome that would be observed under a specific treatment condition. We have two possible outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
+Refers to the outcome that would be observed under a specific treatment condition. We have two potential outcomes: **Y**<sup>0</sup> if they didn't receive the vaccine, **Y**<sup>1</sup> if they did).
   
 - Counterfactual: 
 Represent the hypothetical outcomes that would have occurred under different treatment scenarios. If T=1 then **Y**<sup>1</sup> is our outcome and **Y**<sup>0</sup> is our counterfactual).
@@ -53,7 +53,7 @@ Represent the hypothetical outcomes that would have occurred under different tre
 Refers to variables that aren't affected by the treatment, like the age of the person receiving the vaccine or if they took it previously.
   
 - Confounder: 
-A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts
+A covariate that affects both outcome and treatment. Older people are at a higher risk if they get the flu, which might influence them to look for the treatment more than their younger counterparts, so the age covariate is a confounder.
 
 
 ## **Assumptions in Causal Inference:**
